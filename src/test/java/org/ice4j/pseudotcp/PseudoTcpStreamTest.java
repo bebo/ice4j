@@ -8,6 +8,7 @@
 package org.ice4j.pseudotcp;
 
 import static org.junit.Assert.*;
+import org.junit.*;
 
 import java.io.*;
 import java.net.*;
@@ -294,6 +295,7 @@ public class PseudoTcpStreamTest
      * Tests timeout on read method
      * @throws UnknownHostException 
      */
+    @Ignore
     public void testReadTimeout() throws Exception
     {
         doTestTimeout(new TimeoutOperationTest()
@@ -331,6 +333,7 @@ public class PseudoTcpStreamTest
      * Tests timeout on flush method
      * @throws UnknownHostException 
      */
+    @Ignore
     public void testFlushTimeout() throws Exception
     {
         doTestTimeout(new TimeoutOperationTest()

@@ -42,7 +42,7 @@
         <artifactId>maven-surefire-plugin</artifactId>
         <configuration>
           <includes>
-            <include>**/*TestSuite.*</include>
+            <!-- <include>**/*TestSuite.*</include> -->
           </includes>
         </configuration>
       </plugin>
